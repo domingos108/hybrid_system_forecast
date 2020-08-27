@@ -1,0 +1,22 @@
+[{
+    "name": "fortaleza",
+    "type_data": 1,
+    "path_data":"./dataset/baseFortaleza.xlsx",
+    "test_size": 30,
+    "val_size": 28
+},
+{
+  "name": "natal",
+  "type_data": 2,
+  "path_data":"./dataset/BaseNatal.xlsx",
+  "test_size": 30,
+  "val_size": 28
+},
+{
+  "name": "recife",
+  "type_data": 3,
+  "path_data":"./dataset/baseRECIFE.xlsx",
+  "test_size": 30,
+  "val_size": 28
+}
+]

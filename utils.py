@@ -181,7 +181,6 @@ def do_computations(data, path, metric, metrics_to_use):
     
     best = None
     metric_values = pd.DataFrame() 
-    best_path = None
 
     execs = 30
     if len(path) == 1:
@@ -193,7 +192,6 @@ def do_computations(data, path, metric, metrics_to_use):
             
             
     elif len(path) == execs:
-        temp_path = ''
         for i2 in path:
             
             result_model= open_saved_result(i2)     
